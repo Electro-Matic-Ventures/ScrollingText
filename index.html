@@ -1,0 +1,51 @@
+<head>
+    <meta http-equiv="refresh" content="5">
+    <style>
+                html {
+            background-color: black;
+        }
+        #scroll_host {
+            overflow: hidden;
+            width: 100px;
+        }
+        #scroller {
+            animation: scroll 5s linear infinite; 
+            margin: 0px;
+            padding: 0px;
+            white-space: nowrap;
+            width: 100%;
+        }
+        @keyframes scroll {
+            0%   { 
+                transform: translateX(101px); 
+            }
+            100% { 
+                transform: translateX(-151px); 
+            }
+        }
+        .character {
+            margin-right: 1px; 
+            margin-bottom: 1px; 
+        }
+    </style>
+</head>
+
+<html>
+    <div id="scroll_host">>
+        <div id="scroller">
+            <span id="character_host">
+                <img class="character" height="7" src="normal_7_red_003B.png" width="6">
+                <img class="character" height="7" src="normal_7_red_0041.png" width="6">
+                <img class="character" height="7" src="normal_7_red_004A.png" width="6">
+                <img class="character" height="7" src="normal_7_red_003B.png" width="6">
+                <img class="character" height="7" src="normal_7_red_0044.png" width="6">
+                <img class="character" height="7" src="normal_7_red_004A.png" width="6">
+                <img class="character" height="7" src="normal_7_red_004F.png" width="6">
+                <img class="character" height="7" src="normal_7_red_0049.png" width="6">
+                <img class="character" height="7" src="normal_7_red_0045.png" width="6">
+                <img class="character" height="7" src="normal_7_red_0046.png" width="6">
+                <img class="character" height="7" src="normal_7_red_004A.png" width="6">
+            </span>
+        </div>
+    </div>
+</html>

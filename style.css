@@ -3,13 +3,14 @@ html {
 }
 
 #scroll_host {
+    overflow: hidden;
     width: 100px;
 }
 
 #scroller {
-    animation: scroll 10s linear infinite; 
-    overflow: hidden;
+    animation: scroll 5s linear infinite; 
     white-space: nowrap;
+    width: 100%;
 }
 @keyframes scroll {
     0%   { 
