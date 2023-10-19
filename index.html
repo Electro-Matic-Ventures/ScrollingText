@@ -1,7 +1,7 @@
 <head>
-    <meta http-equiv="refresh" content="5">
+    <meta http-equiv="refresh" content="100">
     <style>
-                html {
+        html {
             background-color: black;
         }
         #scroll_host {
@@ -13,25 +13,33 @@
             margin: 0px;
             padding: 0px;
             white-space: nowrap;
-            width: 100%;
+            width: 88px;
         }
         @keyframes scroll {
             0%   { 
-                transform: translateX(101px); 
+                transform: translateX(100px); 
             }
             100% { 
-                transform: translateX(-151px); 
+                transform: translateX(-88px); 
             }
         }
+        #character_host {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            padding: 0px;
+        }
         .character {
+            margin: 0px;
             margin-right: 1px; 
-            margin-bottom: 1px; 
+            margin-bottom: 1px;
+            padding: 0px; 
         }
     </style>
 </head>
 
 <html>
-    <div id="scroll_host">>
+    <div id="scroll_host">
         <div id="scroller">
             <span id="character_host">
                 <img class="character" height="7" src="normal_7_red_003B.png" width="6">
